@@ -1,0 +1,180 @@
+/*
+Theme Name: eba_wordpress_theme
+Theme URI: http://www.emmabandrews.org/
+Description: Basic 2 column wordpress theme
+Version: 1.0
+Author: Chris Sumption, Emma B. Andrews Diary Project
+Tags: 2 column
+*/
+
+/* Global Elements */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: auto;
+	position: relative;
+	min-width: 850px; 
+}
+
+a {
+	text-decoration: none;
+	color: #303;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #303;
+}
+
+p {
+	font-size: 90%;
+	line-height: 180%;
+}
+
+h1 {
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 150%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+h2
+{
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 130%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+h3
+{
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 120%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+h4
+{
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 110%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+h5, h6
+{
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 100%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+h6
+{
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 90%;
+	color: #330033;
+	line-height: normal; text-align: left;
+}
+
+/* Header */
+#header {
+	position: relative;
+	height: 4.3em; 
+}
+
+#logo {
+	position: absolute; 
+	left: 0; 
+	bottom: 0; 
+	height: 4.3em; 
+}
+
+#top_right {
+	position: absolute; right: 0; bottom: 0;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	color: #330033;
+	font-weight: normal; 
+}
+
+#panel {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	clear: both;
+}
+
+#panel img {
+	width: 100%;
+}
+
+/* Left Sidebar */
+
+#left_column {
+	float: left;
+}
+
+#navigation {
+	width: 215px;
+}
+
+#navigation li a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0.35em;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+#navigation li a:hover {
+	color: #000000;
+	background-color: #F3F3F3;
+	font-weight: normal; 
+}
+
+#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#naviation li {
+	padding: 0;
+}
+
+/* Content */
+#content {
+	margin-left: 240px;
+	width: 70%;
+}
+
+#content li {
+	font-size: 90%;
+	line-height: 180%;
+}
+
+/* Comments */
+
+/* Footer */
+#footer {
+	clear: both;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 8pt;
+}
+
+
