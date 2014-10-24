@@ -22,13 +22,14 @@
 <div id="header"> <!-- begin header -->
 
 	<div id="logo">
-		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/emma_logo_216px.png"></a>
+		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/emma_logo_216px.png" alt="Emma B. Andrews Diary Project Logo" ></a>
 	</div>
 
 	<div id="top_right">
 		<span>A Record of Nile Travel 1889 - 1912 </span>
-		<a href="https://www.facebook.com/EmmaBAndrewsDiary?fref=ts"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook_small.gif" alt="Facebook" /></a>
-		<a href="http://twitter.com/sarahketchley"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter_small.gif" alt="Twitter" /></a>
+		<a href="https://www.facebook.com/EmmaBAndrewsDiary?fref=ts"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook_small.gif" alt="Facebook" title="Facebook" /></a>
+		<a href="http://twitter.com/sarahketchley"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter_small.gif" alt="Twitter"  title="Twitter" /></a>
+		<a href="http://emmabandrews.tumblr.com/"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/tumblr_logo_white_blue_16.png" alt="Tumblr" title="Tumblr" /></a>
 	</div>
 
 </div> <!-- end header -->
